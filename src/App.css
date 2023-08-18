@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app {
+  width: 550px;
+  height: 400px;
+}
+
+#label {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.indicators {
+  display: flex;
+}
+
+.indicator {
+  flex: 1;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 160px;
+  border: 7px solid #13353a;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#timer-label {
+  font-size: 32px;
+}
+
+#time-left {
+  font-size: 72px;
+}
+
+.bottom-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer a {
+  font-size: 20px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer a:hover {
+  opacity: 1;
+}
